@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+.nav-link:hover{
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+.icon-container img{
+  width: 30px;
+}
+.main-pic img{
+  max-width:450px;
+}
+.about-pic img{
+  max-width:400px;
+}
+.carda img{
+  width: 20px;
+}
+.carda{
+  width: 200px;
+  margin: 20px;
+}
+.arrow img{
+  position: absolute;
+ width: 20px;
+ right: 0;
+}
+.ex-pic img{
+  width: 30px;
+}
+.pbtn{
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.pbtn:hover{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+.pcard img{
+  max-width: 300px;
+}
+.pcard{
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width: 25px;
+  margin-right: .4rem;
+}
+.contact{
+  border: 1px solid black;
+ padding: 1rem;
+ width: fit-content;
+ border-radius: 20px;
+}
